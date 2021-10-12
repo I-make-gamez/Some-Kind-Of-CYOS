@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: px;
+    }
